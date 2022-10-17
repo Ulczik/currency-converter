@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency converter</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+<main class="container">
+  <form class="form js-form">
+    <fieldset class="form__fieldset">
+      <legend class="form__legend">Przelicznik walut</legend>
+      <label>
+        <span class="form__labelText">Wpisz kwotę w zł*:</span>
+        <input type="number" class="form__field js-amout" step="any" min="0.1">
+      </label>
+      <p>
+        <label>
+          <span class="form__labelText">Wybierz walutę</span>
+          <select name="currency" class="form__field js-currency">
+            <option value="EUR">Euro</option>
+            <option value="GBP">Funt brytyjski</option>
+            <option value="USD">Dolar amerykański</option>
+            <option value="JPY">Jen japoński</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <button class="form__button js-form__button">PRZELICZ</button>
+      </p>
+      <p class="form__result">
+        <span class="js-result"></span>
+      </p>
+    </fieldset>
+  </form>
+</main>
+</body>
+
+</html>

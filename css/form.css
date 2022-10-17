@@ -1,0 +1,50 @@
+.form__labelText {
+    display: inline-block;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.form__field {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid hwb(150 63% 14%);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.form__fieldset {
+    border: 1px solid hwb(150 63% 14%);
+    border-radius: 7px;
+    margin: 25px 0;
+    padding: 15px;
+    background-color: white;
+}
+
+.form__legend {
+    border-radius: 7px;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 9px;
+}
+
+.form__button {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid hwb(150 63% 14%);
+    background-color: teal;
+    color: whitesmoke;
+    padding: 9px;
+
+}
+
+.form__button:hover {
+    border: 1px double hwb(150 63% 14%);
+    background-color: rgb(4, 154, 154);
+
+}
+
+.form__result {
+    color: teal;
+    text-align: center;
+}
