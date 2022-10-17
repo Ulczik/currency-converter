@@ -8,4 +8,5 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-       }
+    background: center / cover no-repeat url("../images/backgroung.jpg");
+           }
