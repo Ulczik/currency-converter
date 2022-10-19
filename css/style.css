@@ -8,5 +8,5 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-    background: center / cover no-repeat url("../images/backgroung.jpg");
+    background: center / cover repeat fixed url("../images/backgroung.jpg");
 }
