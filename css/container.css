@@ -1,6 +1,8 @@
 .container {
-    max-width: 650px;
-    width: 100%;
-    margin: 0 auto;
     padding: 0px 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-basis: 750px;
+    justify-content: center;
+    align-items: center;
 }
