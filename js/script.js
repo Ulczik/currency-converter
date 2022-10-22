@@ -4,24 +4,7 @@
    }
 
    const resultCalculation = (amount, currency) => {
-      const rateEUR = 4.85;
-      const rateGBP = 5.54;
-      const rateUSD = 4.99;
-      const rateJPY = 0.03;
-
-      switch (currency) {
-         case "EUR":
-            return amount / rateEUR;
-
-         case "GBP":
-            return amount / rateGBP;
-
-         case "USD":
-            return amount / rateUSD;
-
-         case "JPY":
-            return amount / rateJPY;
-      }
+      return amount / currency;
    };
 
    const resultElement = document.querySelector(".js-result");
