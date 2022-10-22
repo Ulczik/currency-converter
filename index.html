@@ -21,34 +21,34 @@
 </head>
 
 <body class="body">
-<main class="container">
-  <form class="form js-form">
-    <fieldset class="form__fieldset">
-      <legend class="form__legend">Przelicznik walut</legend>
-      <label>
-        <span class="form__labelText">Wpisz kwotę w zł*:</span>
-        <input type="number" required placeholder="Wpisz kwotę" class="form__field js-amout" step="any" min="0.1">
-      </label>
-      <p>
+  <main class="container">
+    <form class="form js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Przelicznik walut</legend>
         <label>
-          <span class="form__labelText">Wybierz walutę</span>
-          <select name="currency" class="form__field js-currency">
-            <option value="4.85">Euro</option>
-            <option value="5.54">Funt brytyjski</option>
-            <option value="4.99">Dolar amerykański</option>
-            <option value="0.03">Jen japoński</option>
-          </select>
+          <span class="form__labelText">Wpisz kwotę w zł*:</span>
+          <input type="number" required placeholder="Wpisz kwotę" class="form__field js-amout" step="any" min="0.1">
         </label>
-      </p>
-      <p>
-        <button class="form__button js-form__button">PRZELICZ</button>
-      </p>
-      <p class="form__result">
-        <span class="js-result"></span>
-      </p>
-    </fieldset>
-  </form>
-</main>
+        <p>
+          <label>
+            <span class="form__labelText">Wybierz walutę</span>
+            <select name="currency" class="form__field js-currency">
+              <option value="4.85">Euro</option>
+              <option value="5.54">Funt brytyjski</option>
+              <option value="4.99">Dolar amerykański</option>
+              <option value="0.03">Jen japoński</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <button class="form__button js-form__button">PRZELICZ</button>
+        </p>
+        <p class="form__result">
+          <span class="js-result"></span>
+        </p>
+      </fieldset>
+    </form>
+  </main>
 </body>
 
 </html>
